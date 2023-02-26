@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import pandas as pd
 import numpy as np
@@ -27,40 +23,3 @@ for i in ds.index:
         ds['tag_id'][i] = 1
     elif ds['sentiment'][i] == "negative":
         ds['tag_id'][i] = 2
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
